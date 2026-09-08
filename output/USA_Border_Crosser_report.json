@@ -1,0 +1,208 @@
+{
+  "input": "C:/Fake_identity/input/USA_Border_Crosser.png",
+  "document_type": "Passport",
+  "ocr": {
+    "status": "success",
+    "text": [
+      {
+        "input_path": "C:/Fake_identity/input/USA_Border_Crosser.png",
+        "page_index": null,
+        "doc_preprocessor_res": {
+          "output_img": "[[[245 ... 247]\n  ...\n  [231 ... 232]]\n\n ...\n\n [[240 ... 243]\n  ...\n  [243 ... 243]]]"
+        },
+        "dt_polys": [
+          "[[13  7]\n ...\n [13 24]]",
+          "[[251   9]\n ...\n [251  17]]",
+          "[[251  16]\n ...\n [251  25]]",
+          "[[ 7 26]\n ...\n [ 7 38]]",
+          "[[14 40]\n ...\n [14 55]]",
+          "[[144  61]\n ...\n [144  69]]",
+          "[[142  74]\n ...\n [142  90]]",
+          "[[143  95]\n ...\n [143 104]]",
+          "[[143 109]\n ...\n [143 124]]",
+          "[[143 128]\n ...\n [143 138]]",
+          "[[142 143]\n ...\n [142 158]]",
+          "[[143 164]\n ...\n [143 173]]",
+          "[[135 176]\n ...\n [135 198]]",
+          "[[ 65 282]\n ...\n [ 65 294]]",
+          "[[ 38 294]\n ...\n [ 38 306]]",
+          "[[ 59 380]\n ...\n [ 59 397]]",
+          "[[ 17 410]\n ...\n [ 17 426]]",
+          "[[ 17 429]\n ...\n [ 17 445]]",
+          "[[ 18 447]\n ...\n [ 18 461]]"
+        ],
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "text_det_params": {
+          "limit_side_len": 960,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "BORDERCROSSER",
+          "NOTPERMITTED",
+          "TOWORKINUS",
+          "U.S.Department ofJustice-Immigratien andNaturallaatianBarviee",
+          "GONZALEZ-MENDEZ,CRISTINA MARIE",
+          "HAVE",
+          "06 17 70",
+          "tros",
+          "A085043401",
+          "AEN MUMITH",
+          "0816 01",
+          "CAADEXPES",
+          "SAMPLE CARD",
+          "(NONRESIGENT ALIEN) BORDER CROSSING CARD",
+          "PERSAN IDENTIFED BY THIS CARD IS NUT PERMITTED TO WORK OR RESIDE IN THE U.S",
+          "ELP 910815 582 1093646001",
+          "A3USA085043401<01<9108<<<<<<<<",
+          "7006171F0108168<<<<<<A5AA37743",
+          "GONZALEZ<MENDEZ<<CRISTINA<MARI"
+        ],
+        "rec_scores": [
+          0.9996683597564697,
+          0.9450576901435852,
+          0.9752151370048523,
+          0.781863808631897,
+          0.9984196424484253,
+          0.7747046947479248,
+          0.9752246141433716,
+          0.7263154983520508,
+          0.9998324513435364,
+          0.8334106206893921,
+          0.9561381936073303,
+          0.6132706999778748,
+          0.9987152218818665,
+          0.9161036610603333,
+          0.9287872314453125,
+          0.9963073134422302,
+          0.9976348280906677,
+          0.999263346195221,
+          0.9980090856552124
+        ],
+        "rec_polys": [
+          "[[13  7]\n ...\n [13 24]]",
+          "[[251   9]\n ...\n [251  17]]",
+          "[[251  16]\n ...\n [251  25]]",
+          "[[ 7 26]\n ...\n [ 7 38]]",
+          "[[14 40]\n ...\n [14 55]]",
+          "[[144  61]\n ...\n [144  69]]",
+          "[[142  74]\n ...\n [142  90]]",
+          "[[143  95]\n ...\n [143 104]]",
+          "[[143 109]\n ...\n [143 124]]",
+          "[[143 128]\n ...\n [143 138]]",
+          "[[142 143]\n ...\n [142 158]]",
+          "[[143 164]\n ...\n [143 173]]",
+          "[[135 176]\n ...\n [135 198]]",
+          "[[ 65 282]\n ...\n [ 65 294]]",
+          "[[ 38 294]\n ...\n [ 38 306]]",
+          "[[ 59 380]\n ...\n [ 59 397]]",
+          "[[ 17 410]\n ...\n [ 17 426]]",
+          "[[ 17 429]\n ...\n [ 17 445]]",
+          "[[ 18 447]\n ...\n [ 18 461]]"
+        ],
+        "vis_fonts": [
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>",
+          "<paddlex.utils.fonts.Font object at 0x0000019D17B04790>"
+        ],
+        "textline_orientation_angles": [
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "rec_boxes": "[[ 13 ...  25]\n ...\n [ 18 ... 461]]"
+      }
+    ]
+  },
+  "mrz": {
+    "status": "success",
+    "data": {
+      "document_type": "A3",
+      "country": "BUS",
+      "passport_number": "A0B504340",
+      "nationality": "<<<",
+      "date_of_birth": "700617",
+      "expiration_date": "010816",
+      "sex": "F",
+      "surname": "GONZALEZ MENDEZ",
+      "given_names": "CRISTINACMARI",
+      "personal_number": null,
+      "valid_number": false,
+      "valid_date_of_birth": true,
+      "valid_expiration_date": true,
+      "valid_personal_number": false,
+      "valid_composite": true,
+      "valid_score": 75,
+      "raw_text": "A3BUSA0B5043401<01<9108<<<<<<<<\n7006171F0108168<<<<<<A5AA37743\nGONZALEZ<MENDEZ<<CRISTINACMARI"
+    }
+  },
+  "face": {
+    "status": "success",
+    "count": 1,
+    "faces": [
+      {
+        "bbox": "[ 48.55481 ... 191.10474]",
+        "kps": "[[ 76.80643 136.82082]\n ...\n [104.52624 165.99158]]",
+        "det_score": "0.82592434",
+        "landmark_3d_68": "[[43.46988   ... 33.879745 ]\n ...\n [90.53626   ...  2.1643069]]",
+        "pose": "[3.4223583  ... 0.82059014]",
+        "landmark_2d_106": "[[ 97.00527  190.36066 ]\n ...\n [108.472626 127.965546]]",
+        "gender": "0",
+        "age": 37,
+        "embedding": "[ 0.47068393 ... -0.48097748]"
+      }
+    ]
+  },
+  "adcd": {
+    "status": "success",
+    "result": {
+      "score": 0.07830659300088882,
+      "max_score": 0.5093511343002319,
+      "alignment_score": 0.24069558084011078,
+      "result": "LIKELY AUTHENTIC",
+      "heatmap": "C:\\Fake_identity\\output\\USA_Border_Crosser_adcd_heatmap.jpg",
+      "mask": "C:\\Fake_identity\\output\\USA_Border_Crosser_adcd_mask.png"
+    }
+  }
+}

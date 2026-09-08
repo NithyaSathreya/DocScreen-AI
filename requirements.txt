@@ -1,0 +1,36 @@
+# Fake Identity & Document Screening
+# Python environment: Windows / Python 3.10+
+# Tesseract OCR is a separate Windows installation and is NOT installed by pip.
+
+numpy==1.26.4
+scipy==1.15.3
+pandas==2.3.3
+pillow==12.3.0
+
+opencv-contrib-python==4.10.0.84
+
+torch==2.5.1+cu118
+torchvision==0.20.1+cu118
+torchaudio==2.5.1+cu118
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+onnx==1.16.1
+onnxruntime-gpu==1.21.0
+
+insightface==1.0.1
+
+paddlepaddle==3.3.1
+paddleocr==3.7.0
+paddlex==3.7.2
+
+passporteye==2.2.2
+pytesseract==0.3.13
+pdfminer.six==20250506
+scikit-learn==1.7.2
+scikit-image==0.25.2
+
+timm==1.0.20
+yacs==0.1.8
+PyYAML==6.0.2
+tqdm==4.70.0
+requests==2.34.2
