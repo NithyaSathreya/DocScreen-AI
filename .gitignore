@@ -1,2 +1,6 @@
 aa.jpeg
 .idea/
+__pycache__/
+*.pyc
+*.log
+.env
